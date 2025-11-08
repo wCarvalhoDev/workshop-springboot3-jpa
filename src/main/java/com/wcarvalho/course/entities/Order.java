@@ -1,7 +1,6 @@
 package com.wcarvalho.course.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.wcarvalho.course.entities.enums.OrderStatus;
 import jakarta.persistence.*;
 
