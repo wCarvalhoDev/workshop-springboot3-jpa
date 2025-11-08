@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+//Controller → recebe a requisição HTTP
+//É a porta de entrada do sistema (quem recebe as chamadas da web, do Postman, do front-end etc.).
+
+//Camada:	    Função:	                                        Usa quem:
+//Controller	Recebe requisições HTTP e devolve respostas	    Chama o Service
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {
