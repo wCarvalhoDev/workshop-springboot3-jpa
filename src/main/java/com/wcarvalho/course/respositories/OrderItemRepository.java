@@ -1,7 +1,6 @@
 package com.wcarvalho.course.respositories;
 
 import com.wcarvalho.course.entities.OrderItem;
-import com.wcarvalho.course.entities.User;
 import com.wcarvalho.course.entities.pk.OrderItemPK;
 import org.springframework.data.jpa.repository.JpaRepository;
 
